@@ -97,15 +97,9 @@ console.log(output)
 
 // Write a code to convert celsius to fahrenheit-----------PR
 
-//input
-// let suhuCelsius = 25;
-// let suhuFahrenheit;
-// if (suhuCelsius !== undefined) {
-//     suhuFahrenheit = (suhuCelsius * 9 / 5) + 32;
-//     console.log(suhuCelsius + " derajat Celsius setara dengan " + suhuFahrenheit + " derajat Fahrenheit.");
-// } else {
-//     console.log("Silakan masukkan suhu dalam Celsius.");
-// }
+let celcius= 20;
+let fahrenheit = celcius (9/5)*celcius + 32;
+console.log(fahrenheit)
 
 
 
