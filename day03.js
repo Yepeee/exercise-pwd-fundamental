@@ -64,4 +64,20 @@ console.log(result)
 
 //Write a code that shows 1 if the input is a string, 2 if the input is a number, and 3 for others data
 //INPUT 
+let input=12;
+let xx = "";
+if (typeof input === "string"){
+    xx = xx + "tipe data string" 
+}else if (typeof input === "number"){
+    xx = xx + "tipe data number" 
+}else if (typeof input === "boolean"){
+    xx = xx + "tipe data boolean" 
+} else {
+    "bukan termasuk data"
+} 
+// OUTPUT
+console.log(xx)
+
+//
+
 
