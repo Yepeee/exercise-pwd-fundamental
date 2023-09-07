@@ -16,7 +16,6 @@ console.log(hasil)
 // INPUT
 let cm=500000;
 let km=(cm/100000)
-OUTPUT
 console.log(`${cm} centimeter adalah ${km} kilometer`)
 
 //Write a code to format number as currency (IDR)
