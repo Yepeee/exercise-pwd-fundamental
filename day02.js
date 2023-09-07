@@ -98,14 +98,14 @@ console.log(output)
 // Write a code to convert celsius to fahrenheit-----------PR
 
 //input
-let suhuCelsius = 25;
-let suhuFahrenheit;
-if (suhuCelsius !== undefined) {
-    suhuFahrenheit = (suhuCelsius * 9 / 5) + 32;
-    console.log(suhuCelsius + " derajat Celsius setara dengan " + suhuFahrenheit + " derajat Fahrenheit.");
-} else {
-    console.log("Silakan masukkan suhu dalam Celsius.");
-}
+// let suhuCelsius = 25;
+// let suhuFahrenheit;
+// if (suhuCelsius !== undefined) {
+//     suhuFahrenheit = (suhuCelsius * 9 / 5) + 32;
+//     console.log(suhuCelsius + " derajat Celsius setara dengan " + suhuFahrenheit + " derajat Fahrenheit.");
+// } else {
+//     console.log("Silakan masukkan suhu dalam Celsius.");
+// }
 
 
 
@@ -129,13 +129,13 @@ console.log(result)
 //Write a code to find the sum of the numbers 1 to N
 
 //Write a code to find factorial of a number.
-let angkaA = 6;
-let sum = 1
-for (let i = 1; i < angkaA; i++) {
-    console.log(i)
-    sum *= i
-}
-console.log(sum)
+// let angkaA = 6;
+// let sum = 1
+// for (let i = 1; i < angkaA; i++) {
+//     console.log(i)
+//     sum *= i
+// }
+// console.log(sum)
 
 //Write a code to print the first N fibonacci numbers
 
