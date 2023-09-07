@@ -33,10 +33,35 @@ let hasil2 = y.charAt(0).toUpperCase()
 console.log(`${hasil1}urwadhika ${hasil2}urabaya`)
 
 //Write a code to reverse a string
-//INPUT
 let a1 = "surabaya";
 let hasilReverse = a1.split('').reverse()
 //OUTPUT
-console.log(hasilReverse) 
+console.log(hasilReverse)
 
+
+//SLIDE 2---------------------------
+//Write a code to find the largest of two given integers
+//INPUT
+let bilangan1 = 12;
+let bilangan2 = 12;
+let terbesar = "";
+if (bilangan1 > bilangan2) {
+    terbesar += `bilangan terbesar adalah ${bilangan1}`
+} else if (bilangan1 < bilangan2){
+    terbesar += `bilangan terbesar adalah ${bilangan2}`
+}else {
+    terbesar += 'hasilnya adalah seri'
+}
+//OUTPUT
+console.log(terbesar)
+
+//Write a conditional statement to sort three numbers
+let result = "";
+for(let i = 1 ; i <= 3; i++ ){
+result = result + i;
+}
+console.log(result)
+
+//Write a code that shows 1 if the input is a string, 2 if the input is a number, and 3 for others data
+//INPUT 
 
