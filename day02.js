@@ -1,51 +1,47 @@
-//Exercise : memeriksa angka ganjil atau genap 
-//input
-let angka = 1;
-if (angka % 2 === 0) {
-    console.log("Genap")
-} else {
-    console.log("Ganjil")
-}
 
-// dapatkan nilai bulan dari date.getmonth , kemudian sebutkan nama bulannya apa 
-//INPUT 2023-09-06
-
-const getMonth = new Date("2023-12-06").getMonth();
+//MINI EXERCISE : dapatkan nilai bulan dari date.getmonth , kemudian sebutkan nama bulannya apa 
+//INPUT 
+const getMonth = new Date("2023-1-06").getMonth();
+let hasil1 = "";
 if (getMonth === 0) {
-    console.log("januari")
+    hasil1 += "januari"
 } else if
     (getMonth === 1) {
-    console.log("februari")
+    hasil1 += "februari"
 } else if (getMonth === 2) {
-    console.log("maret")
+    hasil1 += "maret"
 }
 else if (getMonth === 3) {
-    console.log("april")
+    hasil1 += "april"
 }
 else if (getMonth === 4) {
-    console.log("mei")
+    hasil1 += "mei"
 }
 else if (getMonth === 5) {
-    console.log("juni")
+    hasil1 += "juni"
 }
 else if (getMonth === 6) {
-    console.log("juli")
+    hasil1 += "juli"
 }
 else if (getMonth === 7) {
-    console.log("agustus")
+    hasil1 += "agustus"
 }
 else if (getMonth === 8) {
-    console.log("september")
+    hasil1 += "september"
 }
 else if (getMonth === 9) {
-    console.log("oktober")
+    hasil1 += "oktober"
 }
 else if (getMonth === 10) {
-    console.log("november")
+    hasil1 += "november"
 }
 else if (getMonth === 11) {
-    console.log("desember")
+    hasil1 += "desember"
+} else {
+    hasil1 += "Bukan termasuk bulan"
 }
+//OUTPUT 
+console.log(hasil1)
 
 //Memakai switch Case
 let output;
@@ -93,20 +89,30 @@ switch (getMonth) {
 
 console.log(output)
 
+//EXERCISE SLIDE PURWADHIKA =======================================================================================
 
-
-// Write a code to convert celsius to fahrenheit-----------PR
-
-let celcius= 20;
-let fahrenheit = celcius (9/5)*celcius + 32;
+//1. Write a code to convert celsius to fahrenheit
+let celcius = 20;
+let fahrenheit = (9/5) * celcius + 32;
 console.log(fahrenheit)
 
+//2.Write a code to check whether the number is odd or even
+//menggunakan modulus agar bisa mengetahui jika dibagi bisa habis atau tidak
+//INPUT
+let angka = 1;
+let hasil = "";
+if (angka % 2 === 0) {
+    hasil += "Genap"
+} else {
+    hasil += "ganjil"
+}
+console.log(hasil)
 
 
-// //Write a code to check whether the number is prime number or not---PR
+//3. Write a code to check whether the number is prime number or not
 let bilangan = 2;
 let pembagi = 0;
-let result = ""
+let result = "";
 for (let i = 1; i <= bilangan; i++) {
     if (bilangan % i === 0) {
         pembagi++;
@@ -120,16 +126,37 @@ if (pembagi == 2) {
 }
 console.log(result)
 
-//Write a code to find the sum of the numbers 1 to N
+//4.Write a code to find the sum of the numbers 1 to N----------- mencoba menggunakan function
+let x = 10;
+let y = 0
+function penjumlahanTotal(angka){
+    for (let i = 0; i <= angka; i++){
+        y += i;
+    }
+    return y;
+}
+console.log(penjumlahanTotal(x))
+  
+  
+//5. Write a code to find factorial of a number.
+const n = 4;
+let faktorial = 1;
 
-//Write a code to find factorial of a number.
-// let angkaA = 6;
-// let sum = 1
-// for (let i = 1; i < angkaA; i++) {
-//     console.log(i)
-//     sum *= i
-// }
-// console.log(sum)
+for (let i = 1; i <= n; i++) {
+    console.log(i)
+  faktorial *= i;
+}
+console.log(faktorial)
 
-//Write a code to print the first N fibonacci numbers
 
+//6.Write a code to print the first N fibonacci numbers
+//INPUT 
+// program to generate fibonacci series up to n terms===== edit menggunakan array "2023-09-09"
+let input =12;
+let data = [0 , 1];
+for (let index = 2; index <= input; index++){
+    data[index] = data[index-1] + data[index-2]
+}
+console.log(data)
+
+//FINISH
