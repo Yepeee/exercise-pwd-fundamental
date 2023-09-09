@@ -111,15 +111,15 @@ console.log(hasil)
 
 //3. Write a code to check whether the number is prime number or not
 let bilangan = 2;
-let pembagi = 0;
+let prime = 0;
 let result = "";
 for (let i = 1; i <= bilangan; i++) {
     if (bilangan % i === 0) {
-        pembagi++;
+        prime++;
 
     }
 }
-if (pembagi == 2) {
+if (prime == 2) {
     result = result + `${bilangan} adalah bilangan prima`
 } else {
     result = result + `${bilangan} bukan bilangan prima`
