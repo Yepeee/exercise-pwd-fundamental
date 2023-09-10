@@ -155,6 +155,7 @@ console.log(faktorial)
 let input =12;
 let data = [0 , 1];
 for (let index = 2; index <= input; index++){
+    console.log(index)
     data[index] = data[index-1] + data[index-2]
 }
 console.log(data)
