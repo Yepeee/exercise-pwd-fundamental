@@ -152,7 +152,7 @@ console.log(faktorial)
 //6.Write a code to print the first N fibonacci numbers
 //INPUT 
 // program to generate fibonacci series up to n terms===== edit menggunakan array "2023-09-09"
-let input =12;
+let input = ;
 let data = [0 , 1];
 for (let index = 2; index <= input; index++){
     console.log(index)

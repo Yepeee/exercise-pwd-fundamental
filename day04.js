@@ -9,8 +9,8 @@ replace multiples of ú with "Fizz", multiples of ü with "Buzz", multiples of �
 
 //3. Create a function to calculate Body Mass Index (BMI)
 //INPUT 
-let berat = 80;
-let tinggi = 180 ;
+let berat = 51;
+let tinggi = 160 ;
 function hasilnya(weight, height) {
     let output = weight / (height/100)**2 ;
     if (output <= 18.5) {
